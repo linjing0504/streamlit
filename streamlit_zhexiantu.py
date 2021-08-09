@@ -201,4 +201,4 @@ new_df = df[(df['年份'].isin(nianfen)) & (df['及格线'].isin(jigexian))]
 # write dataframe to screen
 st.write(new_df)
 
-
+print('..................')
